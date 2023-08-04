@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 void _puts(char *s);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
@@ -21,4 +22,3 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 #endif
-
