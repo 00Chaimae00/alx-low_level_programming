@@ -1,5 +1,5 @@
 section          .text
-	  extern    printf
+        extern    printf
 	global   main
 main:
 	  mov   edi, format
